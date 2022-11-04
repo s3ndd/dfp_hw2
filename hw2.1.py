@@ -168,7 +168,7 @@ def parse_first_phys_rec(output: List[str], record: str, filter_futures_code: st
             contract_type = 'Put' if option_right_code.upper() == 'P' else 'Call'
             strike_price = option_strike_price
             settlement_price = high_precision_settlement_price
-            formatted_record = f'{futures_code:<7}   {contract_month:<8}   {contract_type:<8}   {strike_price:>6.2f}   {settlement_price:>10.2f}\n '
+            formatted_record = f'{futures_code:<7}   {contract_month:<8}   {contract_type:<8}   {strike_price:>6.2f}   {settlement_price:>10.2f}\n'
 
         if formatted_record is not None and contract_month is not None and (start <= contract_month <= end):
             output.append(formatted_record)
