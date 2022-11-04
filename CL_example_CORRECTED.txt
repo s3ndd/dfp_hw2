@@ -1,0 +1,39 @@
+Futures   Contract   Contract   Futures     Options   Options
+Code      Month      Type       Exp Date    Code      Exp Date
+-------   --------   --------   --------    -------   --------
+CL        2021-09    Fut        2021-08-20            
+CL        2021-10    Fut        2021-09-21            
+CL        2021-11    Fut        2021-10-20            
+...
+CL        2023-10    Fut        2023-09-20            
+CL        2023-11    Fut        2023-10-20            
+CL        2023-12    Fut        2023-11-20            
+CL        2021-09    Opt                    LO        2021-08-17
+CL        2021-10    Opt                    LO        2021-09-16
+CL        2021-11    Opt                    LO        2021-10-15
+...
+CL        2023-07    Opt                    LO        2023-06-15
+CL        2023-09    Opt                    LO        2023-08-17
+CL        2023-12    Opt                    LO        2023-11-15
+Futures   Contract   Contract   Strike   Settlement
+Code      Month      Type       Price    Price
+-------   --------   --------   ------   ----------
+CL        2021-09    Fut                      73.81
+CL        2021-10    Fut                      72.68
+CL        2021-11    Fut                      71.64
+CL        2021-12    Fut                      70.79
+...
+CL        2023-09    Fut                      59.94
+CL        2023-10    Fut                      59.59
+CL        2023-11    Fut                      59.26
+CL        2023-12    Fut                      58.96
+CL        2021-09    Call         0.50        73.36
+CL        2021-09    Put          0.50         0.01
+CL        2021-09    Call         1.00        72.86
+CL        2021-09    Put          1.00         0.01
+...
+CL        2023-12    Put        200.00       141.02
+CL        2023-12    Call       205.00         0.04
+CL        2023-12    Put        205.00       146.01
+CL        2023-12    Call       210.00         0.03
+CL        2023-12    Put        210.00       151.00
